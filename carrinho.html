@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Carrinho - Loja de Cupcakes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="carrinho">
+    <header>
+        <h1>Seu Carrinho</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="carrinho.html" class="active">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <ul id="itens-carrinho">
+            <!-- Itens do carrinho serão adicionados aqui dinamicamente -->
+        </ul>
+        <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Loja de Cupcakes</p>
+    </footer>
+
+    <script src="js/carrinho.js"></script>
+</body>
+</html>
